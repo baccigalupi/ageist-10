@@ -2,6 +2,7 @@ random_age = rand(111)
 range_string = "Age range is "
 puts "Age is" + " " + random_age.to_s
 
+# better indentation
 case random_age
 when (0..1)
   puts range_string + 'baby'
